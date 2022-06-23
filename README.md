@@ -8,8 +8,10 @@ How to use:
 
 * This project use localStorage to store all questions and user result.
 
+Live URL: https://channchealysek.github.io/cs-javascript-code-quiz/
+
 
 Video guide:
-![Quiz Online](https://user-images.githubusercontent.com/102747948/174903599-1c059079-272b-4541-8d9a-25f28d86a42e.gif)
+![JS Code Quiz](https://user-images.githubusercontent.com/102747948/175203691-b6c01274-0421-47c8-aefd-96f212236042.gif)
 
 ***anybody can clone and use anywhere under self-responsible.
