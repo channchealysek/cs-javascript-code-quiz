@@ -1,0 +1,212 @@
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct:145;
+}
+
+
+* body{
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 26px;
+  }
+
+  .footer{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 750px;
+    
+  }
+
+  .footer > div {
+    text-align: left;
+  }
+
+  .li-text-ans-container {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0px 0 0 10px;
+    margin: 0px 10px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    background: lightblue;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+ .start-quiz-contianer {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      font-size: 1.2rem;
+      margin: 10px;
+      padding: 10px;
+  }
+
+  .qaans-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .qaans-container > div {
+    text-align: left;
+    align-items: left;
+  }
+
+  .ans-container{
+    display: flex;
+    width: 360px;
+    padding: 10px;
+    min-height: 2.3vh;
+    margin: 10px 86px 10px 0;
+    /* padding: 10px 10px 10px 0; */
+    background-color: gainsboro;
+    font-size: 18px;
+    /* create border shadow bottom */
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+    font-weight: lighter;
+    border-radius: 15px 0 0 0;
+    /* vertical-align: middle; */
+    align-items: center;
+
+}
+
+.text-ans-container {
+    text-align: left;
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+}
+.ans-container:hover{
+    background-color: rgb(253, 253, 253);
+    font-size: 18px;
+    border: .5px solid lightblue;;
+    /* create border shadow bottom */
+    -webkit-box-shadow: 0 4px 6px -6px rgb(107, 104, 104);
+    -moz-box-shadow: 0 4px 6px -6px rgb(26, 24, 24);
+    box-shadow: 0 4px 6px -6px rgb(88, 82, 82);
+    font-weight: lighter;
+    border-radius: 15px 0 0 0;
+    cursor: pointer;
+}
+
+  input[type=button] {
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid gray;
+    background-color:rgb(70, 146, 221);
+    color: whitesmoke;
+    font-size: 25px;
+  }
+  input[type=button]:hover {
+    border-color: rgba(241, 240, 281, 0.5);
+    /* create border shadow bottom */
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+    font-weight: lighter;
+    background: rgb(12, 142, 230);
+}
+
+.btn-container {
+  margin: auto;
+  word-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-go-back {
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.3vh;
+  --hue:var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  text-shadow: 0 0 10px rgba(129, 127, 118, 0.5);
+  cursor: pointer;
+}
+
+.btn-view-high-score {
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.3vh;
+  --hue:var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  text-shadow: 0 0 10px rgba(129, 127, 118, 0.5);
+  cursor: pointer;
+}
+
+/* style textinput */
+
+input[type=text] {
+  padding: 0;
+  height: 40px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .15);
+  background-color: white;
+  font-size: 25px;
+}
+
+.text-input {
+  width: 250px;
+  margin-right: -4px;
+}
+
+/* style submit button */
+.text-high-container {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 10px 10px 0;
+  padding: 10px 10px 10px 10px;
+  font-size: 25px;
+  color:whitesmoke;
+  background: lightslategray;
+  width: 560px;
+  height:36px;
+}
